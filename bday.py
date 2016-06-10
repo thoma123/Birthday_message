@@ -21,7 +21,7 @@ while(1):
 	c=user.SwitchDesktop(a)
 	if(c != 0):
 		break
-list = ['thomasgeorge_c','aparna_s','sanjeev_s1','gopikavarma_k','randeepk','arunk','sinuwm','manuvivek','abhijith_sj','benwin_babu']
+list = ['thomasgeorge_c','benwin_babu']
 for ppl in list :
 	subprocess.call(['C:/Users/thomasgeorge.c/Desktop/ip.exe','/MSG', ppl,'hiii'],shell=False)
 time.sleep(5)
